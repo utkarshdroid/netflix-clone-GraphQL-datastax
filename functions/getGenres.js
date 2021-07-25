@@ -4,7 +4,7 @@ exports.handler = async function (event) {
   const limit =JSON.parse(event.body)
   const url = process.env.ASTRA_GRAPHQL_ENDPOINT
   console.log(url)
-  console.log(process.env.ASTRA_DATABASE_APPLICATION_TOKEN)
+  console.log(process.env.ASTRA_DATABASE_APPLICATION_TOKEN  )
 
   const query = `
     query getAllGenres {
@@ -22,7 +22,7 @@ exports.handler = async function (event) {
     method: 'POST',
     headers: {
       "Content-Type": "application/json",
-      "x-cassandra-token": process.env.ASTRA_DATABASE_APPLICATION_TOKEN
+      "x-cassandra-token": process.env.ASTRA_DATABASE_APPLICATION_TOKEN 
     },
     body: JSON.stringify({ query })
   })
