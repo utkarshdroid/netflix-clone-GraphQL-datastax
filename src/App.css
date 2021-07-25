@@ -131,7 +131,7 @@ body {
   
   ul {
     display: flex;
-    list-style-type: none;
+    list-style-type:none;
   }
   
   li {
@@ -143,5 +143,4 @@ body {
     z-index: 5;
     padding: 10px;
   }
-  
   

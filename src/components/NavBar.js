@@ -1,17 +1,17 @@
-const NavBar= ()=>{
-    return  (
-        <div className= "navBar"> 
+const NavBar = () => {
+    return (
+      <div className="navbar">
         <ul>
-            <li>
-                <div className= "logo">
-                </div>
-            </li>
-            <li>
-                <a href="/">Home</a>
-            </li>
+          <li>
+            <div className="logo"></div>
+          </li>
+          <li>
+            <a href="/">Home</a>
+          </li>
         </ul>
-        </div>
-
+      </div>
     )
-}
-export default NavBar
+  }
+  
+  export default NavBar
+  

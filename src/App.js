@@ -1,6 +1,6 @@
 import "./App.css"
 import { useEffect, useState } from "react"
-import Section from "./components/Section"
+import Section from "./components/Sections"
 import HeroSection from "./components/HeroSection"
 import NavBar from "./components/NavBar"
 

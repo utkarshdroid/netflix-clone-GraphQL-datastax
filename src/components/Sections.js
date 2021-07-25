@@ -35,7 +35,7 @@ const Section = ({ genre }) => {
                             setPageState(pageState)
                             fetchData()
                         }}
-                    ></div>
+                    > <i className="fas fa-angle-right"></i></div>
                 </div>
             )}
 
